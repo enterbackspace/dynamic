@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "username": "jb2467382@gmail.com",
+      "password": "babu12346@",
+      "id": 1
+    },
+    {
+      "username": "lohit@1234gmail.com",
+      "password": "lohitsri@123",
+      "id": 3
+    },
+    {
+      "username": "praveen@1234gmail.com",
+      "password": "praveen@tigh",
+      "id": 4
+    },
+    {
+      "username": "jb2467382@gmail.com",
+      "password": "Babu@123",
+      "id": 14
+    },
+    {
+      "username": "nikhitagudala@gmail.com",
+      "password": "Nikkki@123",
+      "id": 15
+    },
+    {
+      "username": "medisettisrilohit@gmail.com",
+      "password": "Lohit@123",
+      "id": 16
+    },
+    {
+      "username": "durgababu20000@gmail.com",
+      "password": "Durga#124",
+      "id": 17
+    },
+    {
+      "username": "durgababu20000@gmail.com",
+      "password": "babuR123$",
+      "id": 18
+    },
+    {
+      "username": "Lakshmi@1234.com",
+      "password": "Lucky%134",
+      "id": 25
+    },
+    {
+      "username": "Lakshmi@1234.com",
+      "password": "Bababu@123",
+      "id": 26
+    }
+  ],
+  "Details": [
+    {
+      "firstname": "Greyson",
+      "lastname": "Wesley",
+      "G_mail": "Greyson@gmail.com",
+      "Company": "google",
+      "Education": "matric",
+      "id": 2
+    },
+    {
+      "firstname": "james",
+      "lastname": "robert",
+      "G_mail": "jame@123@gmail. com",
+      "Company": "Google",
+      "Education": "matric",
+      "id": 3
+    },
+    {
+      "firstname": "john",
+      "lastname": "robert",
+      "G_mail": "john@123@gmail. com",
+      "Company": "Google",
+      "Education": "matric",
+      "id": 4
+    },
+    {
+      "firstname": "michael",
+      "lastname": "robert",
+      "G_mail": "mich@123@gmail. com",
+      "Company": "Google",
+      "Education": "matric",
+      "id": 5
+    },
+    {
+      "firstname": "costain",
+      "lastname": "robert",
+      "G_mail": "mich@123@gmail. com",
+      "Company": "Google",
+      "Education": "matric",
+      "id": 6
+    },
+    {
+      "firstname": "costain",
+      "lastname": "robert",
+      "G_mail": "gautam@1234gmail.com",
+      "Company": "google",
+      "Education": "interMediate",
+      "id": 7
+    }
+  ]
+}

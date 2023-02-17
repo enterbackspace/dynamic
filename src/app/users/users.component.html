@@ -1,0 +1,24 @@
+ 
+ <div class="d-flex justify-content-center" style="color:blue">
+    <h4>USERS</h4>
+ </div>
+ <hr>
+ <table class="table table-stripped mt-5" style="vertical-align: middle;">
+    <thead>
+        <th>S.NO</th>
+        <th>USERNAME</th>
+        <th>PASSWORD</th>
+        <th>ACTIONS</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let users of users; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{users.username}}</td>
+            <td>{{users.password}}</td>
+            <td>
+                <button mat-icon-button class="btn btn-danger" color="warn" (click)="deleteuser(users.id)"><mat-icon>delete</mat-icon></button>
+            </td>
+
+        </tr>
+    </tbody>
+ </table>

@@ -1,0 +1,20 @@
+ 
+    <mat-card >
+    <form [formGroup]="DetailsForm">
+      <mat-form-field appearance="outline">
+        <mat-label>E_mail..Address</mat-label>
+         <input matInput formControlName="username" name="password" type="email" required>
+         <mat-error *ngIf="DetailsForm.value.username">Password must be a combination of lower-case, upper-case, numbers and at least 9 characters long</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Password</mat-label>
+        <input matInput formControlName="password" name="password" type="password" required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,}$">
+        <mat-error *ngIf="DetailsForm.value.password">Password must be a combination of lower-case, upper-case, numbers and at least 9 characters long</mat-error>
+      </mat-form-field>
+
+
+         
+  
+      <button mat-raised-button color="primary" [disabled]="DetailsForm.status==='INVALID'" (click)="login()"><a routerLink="../header" class="btn btn">Log_in</a></button>
+    </form>
+  </mat-card>

@@ -1,0 +1,31 @@
+<div class="container" >
+    <mat-toolbar   color="primary">
+     <button mat-icon-button  (click)="sidenav.toggle()"     class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon  >menu</mat-icon> 
+  
+    </button>
+    <span class="example-spacer"></span>
+    <a routerLink="/login">  <button class="btn btn-light" mat-raised-button > <mat-icon>exit_to_app</mat-icon>EXIT</button></a>
+
+  </mat-toolbar>
+  <mat-sidenav-container  >
+    <mat-sidenav #sidenav  [mode]="'side' " class="sidenav0">
+      <mat-nav-list   >
+    <a mat-list-item     routerLink="/details" class="text-light">  <mat-icon>home</mat-icon> &nbsp;&nbsp;HOME </a>
+      <a mat-list-item routerLink="/users"><mat-icon >account_circle</mat-icon>&nbsp;&nbsp;USER INFORMATION</a> 
+        <a mat-list-item><mat-icon mat-icon-button color="white">edit</mat-icon>&nbsp;&nbsp;LINK1</a>
+        <a mat-list-item><mat-icon>edit</mat-icon>&nbsp;&nbsp;LINK2</a>
+        <a mat-list-item><mat-icon>edit</mat-icon>&nbsp;&nbsp;LINK3</a>
+        <a mat-list-item><mat-icon>edit</mat-icon>&nbsp;&nbsp;LINK4</a>
+      </mat-nav-list>
+    </mat-sidenav >
+    <mat-sidenav-content >
+      <div class="p-2">
+        <app-details></app-details>
+  </div>
+    </mat-sidenav-content>
+  
+  
+  </mat-sidenav-container>
+  
+   </div>
